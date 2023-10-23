@@ -7,12 +7,16 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "androidbuild": "npx nuxi generate && npx cap sync",
+    "androidrun": "npx cap run android",
+    "androidopen": "npx cap open android"
   },
   "devDependencies": {
     "@capacitor/cli": "5.5.0",
     "@nuxt/devtools": "latest",
     "@nuxtjs/ionic": "^0.12.1",
+    "@vue/cli-service": "5.0.8",
     "nuxt": "^3.7.4",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"

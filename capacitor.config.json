@@ -1,6 +1,6 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "nuxt-app",
+  "appId": "brandchamp",
+  "appName": "brandchamp",
   "webDir": "dist",
   "server": {
     "androidScheme": "https"

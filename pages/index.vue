@@ -18,6 +18,7 @@
           </div>
           <h1>Nuxt Ionic Module </h1>
           <ion-button router-link="/resources">Get Started</ion-button>
+          <ion-button router-link="/tabs">Go to Tabs</ion-button>
         </div>
       </ion-content>
     </ion-page>
